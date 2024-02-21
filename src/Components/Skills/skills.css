@@ -1,0 +1,82 @@
+.container-skills{
+    margin-top: 100px;
+    text-align: center;
+}
+.container-content-skills h2{
+    margin-top: 50px;
+}
+
+.container-content-skills{
+    box-sizing: border-box; 
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #191f2b;
+    margin-bottom: 5%;
+}
+.svg-container-skills{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr; 
+    grid-auto-rows: minmax(150px, auto);
+    box-sizing: border-box;
+    justify-content: center;
+    flex-direction: column;
+    flex-flow: wrap;
+    width: calc(100% + 16px);
+    margin-left: -16px;
+    margin-top: 4vh;
+    
+}
+.svg-flex{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    margin: 16px;
+    flex-basis: 100%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 100%;
+}
+.box{
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    margin: auto;
+    max-width: 275px;
+}
+.box img{
+    width: 100%;
+    border: 3px;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in;
+}
+.box img:hover{
+    transform: scale(1.2);
+}
+.gray{
+    background-color: rgb(188, 188, 188);
+    height: 7px;
+    width: 100%;
+}
+.seven5{
+    background-color: blue;
+    height: 7px;
+    width: 75%;
+}
+.eight0{
+    background-color: blue;
+    height: 7px;
+    width: 80%;
+}
+.six0{
+    background-color: blue;
+    height: 7px;
+    width: 60%;
+}
+.nine0{
+    background-color: blue;
+    height: 7px;
+    width: 90%;
+}
+.break{
+    margin-top: 120px;
+    margin-bottom: 160px;
+}

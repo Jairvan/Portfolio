@@ -1,0 +1,45 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    cursor: default;
+    background-color: #1f242d;
+}
+.desktopMenuListItem{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+    cursor: pointer;
+}
+.desktopMenuListItem:hover{
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid yellow;
+}
+.navbar a{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.navbar a.active {
+    color: yellow;
+}
+.navbar a:hover{
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid yellow;
+}
